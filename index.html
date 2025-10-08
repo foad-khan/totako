@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3e%3cpath fill='%230d9488' d='M50 85.3c-1.7-1.5-27.2-24.1-27.2-43.2 0-11.2 9.1-20.3 20.3-20.3 7.1 0 13.3 3.6 16.9 9 3.6-5.4 9.8-9 16.9-9 11.2 0 20.3 9.1 20.3 20.3 0 19-25.5 41.7-27.2 43.2z'/%3e%3cpolyline points='25,50 35,50 40,45 45,55 55,40 60,50 75,50' fill='none' stroke='%23ffffff' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/%3e%3c/svg%3e" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Patient History</title>
+
+    <!-- SEO and Sharing Meta Tags -->
+    <meta name="description" content="An AI-powered web application for structured patient history taking. It provides guided steps and leverages AI to generate relevant questions and final summaries." />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="AI Patient History" />
+    <meta property="og:description" content="An AI-powered web application for structured patient history taking, with AI-generated summaries and insights." />
+    <meta property="og:image" content="https://images.unsplash.com/photo-1576091160550-2173dba9996a?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1200&h=630&fit=crop" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AI Patient History" />
+    <meta name="twitter:description" content="An AI-powered web application for structured patient history taking, with AI-generated summaries and insights." />
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1576091160550-2173dba9996a?ixlib=rb-4.0.3&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1200&h=630&fit=crop" />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.16.0",
+    "jspdf": "https://aistudiocdn.com/jspdf@^2.5.1",
+    "html2canvas": "https://aistudiocdn.com/html2canvas@^1.4.1"
+  }
+}
+</script>
+</head>
+  <body class="bg-slate-50">
+    <div id="root"></div>
+    <script type="module" src="./index.tsx"></script>
+  </body>
+</html>
